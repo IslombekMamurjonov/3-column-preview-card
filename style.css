@@ -1,0 +1,103 @@
+.wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    height: 400px;
+    margin-bottom: 10%;
+}
+
+.container {
+    width: 330px;
+    justify-content: center;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+    margin: 30px 10px 10px 40px;
+}
+
+h1 {
+    margin: 20px 10px 10px 40px;
+    color: white;
+    font-size: 45px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    margin: 20px 50px 10px 40px;
+    color: white;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button {
+    margin: 40px 10px 10px 40px;
+    width: 120px;
+    height: 36px;
+    border-radius: 20px;
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.button-sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.button-sedan:active {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+}
+
+.button-suvs {
+    color: hsl(184, 100%, 22%);
+}
+
+.button-suvs:active {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+
+.button-luxury {
+    color: hsl(179, 100%, 13%);
+}
+
+.button-luxury:active {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+
+@media only screen and (max-width:400px) {
+    .wrapper {
+        display: block;
+        margin: auto;
+        justify-content: center;
+        height: 420px;
+    }
+
+    .sedans {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .luxury {
+        border-radius: 0 0 10px 10px;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
